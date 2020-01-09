@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae4fc93b-4219-4d16-b06f-55e728bd116f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch03/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/cbow_predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/context_target.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/simple_cbow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch03/word2vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/embedding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab-dl/ch06/ex10_weight_compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab-dl/ch06/ex11_batch_normalization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/cbow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/cbow_params.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/negative_sampling_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-dl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-dl/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-dl/ch06/ex09_weight_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-dl/ch06/ex09_weight_init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-dl/dataset/ex08_compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-dl/ch06/ex08_compare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab-dl/ex04_adagrad.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-dl/ch06/ex04_adagrad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/practice-nlp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/practice-nlp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +47,19 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch04" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.train">
-    <configuration name="cbow_predict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\practice-nlp\ch04" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\lab-dl\ch06" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.eval">
+    <configuration name="eval" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="practice-nlp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,11 +67,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch03/cbow_predict.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/eval.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -67,19 +80,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="context_target" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="practice-nlp" />
+    <configuration name="ex10_weight_compare" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../lab-dl/ch06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\dev\practice-nlp\ch03\context_target.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../lab-dl/ch06/ex10_weight_compare.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,19 +101,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ptb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="practice-nlp" />
+    <configuration name="ex11_batch_normalization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../lab-dl/ch06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch02/ptb.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../lab-dl/ch06/ex11_batch_normalization.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="negative_sampling_layer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="practice-nlp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,11 +130,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch03/train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/negative_sampling_layer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="word2vec" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="practice-nlp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,11 +151,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch03/word2vec.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.train" />
-        <item itemvalue="Python.context_target" />
-        <item itemvalue="Python.cbow_predict" />
-        <item itemvalue="Python.word2vec" />
-        <item itemvalue="Python.ptb" />
+        <item itemvalue="Python.eval" />
+        <item itemvalue="Python.train (1)" />
+        <item itemvalue="Python.ex11_batch_normalization" />
+        <item itemvalue="Python.ex10_weight_compare" />
+        <item itemvalue="Python.negative_sampling_layer" />
       </list>
     </recent_temporary>
   </component>
@@ -194,26 +207,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="269" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578317406052" />
-    <state width="1899" height="302" key="GridCell.Tab.0.bottom" timestamp="1578475110648">
+    <state x="740" y="335" key="FileChooserDialogImpl" timestamp="1578529844642">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="740" y="335" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1578529844642" />
+    <state width="1899" height="322" key="GridCell.Tab.0.bottom" timestamp="1578561111149">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1515" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578317408163" />
-    <state width="1899" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1578475110648" />
-    <state width="1899" height="302" key="GridCell.Tab.0.center" timestamp="1578475110648">
+    <state width="1899" height="322" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1578561111149" />
+    <state width="1899" height="322" key="GridCell.Tab.0.center" timestamp="1578561111149">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1515" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578317408162" />
-    <state width="1899" height="302" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1578475110648" />
-    <state width="1899" height="302" key="GridCell.Tab.0.left" timestamp="1578475110647">
+    <state width="1899" height="322" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1578561111149" />
+    <state width="1899" height="322" key="GridCell.Tab.0.left" timestamp="1578561111149">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1515" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578317408162" />
-    <state width="1899" height="302" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1578475110647" />
-    <state width="1899" height="302" key="GridCell.Tab.0.right" timestamp="1578475110648">
+    <state width="1899" height="322" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1578561111149" />
+    <state width="1899" height="322" key="GridCell.Tab.0.right" timestamp="1578561111149">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1515" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578317408162" />
-    <state width="1899" height="302" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1578475110648" />
+    <state width="1899" height="322" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1578561111149" />
     <state width="1515" height="260" key="GridCell.Tab.1.bottom" timestamp="1578229463182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -230,11 +247,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578229463182" />
-    <state x="346" y="77" key="SettingsEditor" timestamp="1578443956014">
+    <state x="656" y="147" key="SettingsEditor" timestamp="1578548298123">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577611406303" />
-    <state x="346" y="77" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1578443956014" />
+    <state x="656" y="147" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1578548298123" />
     <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1578213016324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
