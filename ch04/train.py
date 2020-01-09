@@ -1,9 +1,11 @@
 import numpy as np
 import pickle
+from common import config
+config.GPU = True
 from common.trainer import Trainer
 from common.optimizer import Adam
 from ch04.cbow import CBOW
-from common.util import create_contexts_target
+from common.util import create_contexts_target, to_cpu, to_gpu
 from dataset import ptb
 
 if __name__ == '__main__':
@@ -18,6 +20,8 @@ if __name__ == '__main__':
     vocab_size = len(word_to_id)
 
     contexts, target = create_contexts_target(corpus, window_size)
+    if config.GPU:
+        contexts, target = to_gpu(contexts), to_gpu(target)
 
     # 모델 등 생성
     model = CBOW(vocab_size, hidden_size, window_size, corpus)
@@ -30,7 +34,9 @@ if __name__ == '__main__':
 
     # 나중에 사용할 수 있도록 필요한 데이터 저장
     word_vecs = model.word_vecs
+    if config.GPU:
+        word_vecs = to_cpu(word_vecs)
     params = {'word_vecs': word_vecs.astype(np.float16), 'word_to_id': word_to_id, 'id_to_word': id_to_word}
-    pkl_file = 'cbow_params.pkl'
+    pkl_file = 'cbow_params_mine.pkl'
     with open(pkl_file, 'wb') as f:
         pickle.dump(params, f, -1)

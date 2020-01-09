@@ -2,22 +2,248 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae4fc93b-4219-4d16-b06f-55e728bd116f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab-dl/ch06/ex10_weight_compare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab-dl/ch06/ex11_batch_normalization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/user.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/cbow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/cbow_params.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/eval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/negative_sampling_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab-dl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-dl/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab-dl/ch06/ex09_weight_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-dl/ch06/ex09_weight_init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab-dl/dataset/ex08_compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-dl/ch06/ex08_compare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab-dl/ex04_adagrad.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab-dl/ch06/ex04_adagrad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/RNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/_environment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/binary/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/binary/elementwise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/binary/packing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/_dtype.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/_errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/_kernel.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/_memory_range.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/_routines_indexing.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/_routines_logic.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/_routines_manipulation.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/_routines_math.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/_routines_sorting.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/_routines_statistics.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/_scalar.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/_ufuncs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/core.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/dlpack.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/flags.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/fusion.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/_cuda/cuda-10.0/cuda_fp16.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/_cuda/cuda-10.0/cuda_fp16.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/_cuda/cuda-10.1/cuda_fp16.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/_cuda/cuda-10.1/cuda_fp16.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/_cuda/cuda-9.2/cuda_fp16.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/_cuda/cuda-9.2/cuda_fp16.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/atomics.cuh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/carray.cuh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex.cuh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/arithmetic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/catrig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/catrigf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/ccosh.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/ccoshf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/cexp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/cexpf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/clog.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/clogf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/complex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/complex_inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/cpow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/cproj.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/csinh.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/csinhf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/csqrt.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/csqrtf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/ctanh.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/ctanhf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/include/cupy/complex/math_private.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/internal.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/core/raw.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/creation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/creation/basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/creation/from_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/creation/matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/creation/ranges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/compiler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/cublas.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/cudnn.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/cudnn64_7.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/cufft.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/cupy_thrust.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/curand.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/cusolver.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/cusparse.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/device.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/driver.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/function.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/memory.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/memory_hook.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/memory_hooks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/memory_hooks/debug_print.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/memory_hooks/line_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/nvToolsExt64_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/nvrtc.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/nvtx.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/pinned_memory.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/profiler.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/runtime.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/stream.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/texture.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cuda/thrust.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cudnn.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cusparse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/cutensor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/ext/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/ext/scatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/fft/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/fft/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/fft/fft.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/indexing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/indexing/generate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/indexing/indexing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/indexing/insert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/io/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/io/formatting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/io/npz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/io/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/lib/stride_tricks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/linalg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/linalg/decomposition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/linalg/eigenvalue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/linalg/einsum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/linalg/einsum_opt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/linalg/norms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/linalg/product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/linalg/solve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/linalg/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/logic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/logic/comparison.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/logic/content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/logic/ops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/logic/truth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/logic/type_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/manipulation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/manipulation/add_remove.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/manipulation/basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/manipulation/dims.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/manipulation/join.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/manipulation/kind.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/manipulation/rearrange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/manipulation/shape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/manipulation/split.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/manipulation/tiling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/manipulation/transpose.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/math/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/math/arithmetic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/math/explog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/math/floating.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/math/hyperbolic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/math/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/math/rounding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/math/special.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/math/sumprod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/math/trigonometric.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/math/ufunc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/math/window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/misc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/misc/memory_ranges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/padding/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/padding/pad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/prof/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/prof/time_range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/random/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/random/_kernels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/random/distributions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/random/generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/random/permutations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/random/sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/sorting/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/sorting/count.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/sorting/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/sorting/sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/sparse/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/sparse/linalg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/statistics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/statistics/correlation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/statistics/histogram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/statistics/meanvar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/statistics/order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/testing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/testing/_bundle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/testing/array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/testing/attr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/testing/condition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/testing/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/testing/hypothesis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/testing/parameterized.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/testing/random.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy/util.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy_cuda101-7.0.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy_cuda101-7.0.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy_cuda101-7.0.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy_cuda101-7.0.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy_cuda101-7.0.0.dist-info/license.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupy_cuda101-7.0.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/_ufunc_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/fallback_mode/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/fallback_mode/fallback.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/linalg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/linalg/solve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/linalg/sparse/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/linalg/sparse/solve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/rsqrt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/runtime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/fft/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/fft/fft.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/fftpack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/fftpack/fft.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/linalg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/linalg/decomp_lu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/linalg/solve_triangular.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/ndimage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/ndimage/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/ndimage/interpolation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/sparse/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/sparse/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/sparse/compressed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/sparse/construct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/sparse/coo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/sparse/csc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/sparse/csr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/sparse/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/sparse/dia.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/sparse/linalg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/sparse/linalg/solve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/sparse/sputils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/sparse/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/special/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/special/bessel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/special/digamma.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/special/erf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/special/gamma.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/special/gammaln.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/special/polygamma.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/special/statistics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/cupyx/scipy/special/zeta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/fastrlock-0.4.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/fastrlock-0.4.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/fastrlock-0.4.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/fastrlock-0.4.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/fastrlock-0.4.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/fastrlock-0.4.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/fastrlock/__init__.pxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/fastrlock/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/fastrlock/_lock.pxi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/fastrlock/rlock.cp37-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/fastrlock/rlock.pxd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/practice-nlp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/practice-nlp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch04/train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +274,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ch04" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -58,7 +284,7 @@
       <recent name="C:\dev\lab-dl\ch06" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.eval">
+  <component name="RunManager" selected="Python.train (1)">
     <configuration name="eval" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="practice-nlp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,8 +392,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.eval" />
         <item itemvalue="Python.train (1)" />
+        <item itemvalue="Python.eval" />
         <item itemvalue="Python.ex11_batch_normalization" />
         <item itemvalue="Python.ex10_weight_compare" />
         <item itemvalue="Python.negative_sampling_layer" />
@@ -211,25 +437,25 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="740" y="335" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1578529844642" />
-    <state width="1899" height="322" key="GridCell.Tab.0.bottom" timestamp="1578561111149">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1515" height="195" key="GridCell.Tab.0.bottom" timestamp="1578581142012">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578317408163" />
+    <state width="1515" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578581142012" />
     <state width="1899" height="322" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1578561111149" />
-    <state width="1899" height="322" key="GridCell.Tab.0.center" timestamp="1578561111149">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1515" height="195" key="GridCell.Tab.0.center" timestamp="1578581142012">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578317408162" />
+    <state width="1515" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578581142012" />
     <state width="1899" height="322" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1578561111149" />
-    <state width="1899" height="322" key="GridCell.Tab.0.left" timestamp="1578561111149">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1515" height="195" key="GridCell.Tab.0.left" timestamp="1578581142012">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578317408162" />
+    <state width="1515" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578581142012" />
     <state width="1899" height="322" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1578561111149" />
-    <state width="1899" height="322" key="GridCell.Tab.0.right" timestamp="1578561111149">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1515" height="195" key="GridCell.Tab.0.right" timestamp="1578581142012">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578317408162" />
+    <state width="1515" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578581142012" />
     <state width="1899" height="322" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1578561111149" />
     <state width="1515" height="260" key="GridCell.Tab.1.bottom" timestamp="1578229463182">
       <screen x="0" y="0" width="1536" height="824" />
@@ -247,10 +473,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578229463182" />
-    <state x="656" y="147" key="SettingsEditor" timestamp="1578548298123">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1578579563586">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577611406303" />
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578579563586" />
     <state x="656" y="147" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1578548298123" />
     <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1578213016324">
       <screen x="0" y="0" width="1536" height="824" />
