@@ -1,7 +1,7 @@
 import numpy as np
 import pickle
 from common import config
-config.GPU = True
+# config.GPU = True
 from common.trainer import Trainer
 from common.optimizer import Adam
 from ch04.cbow import CBOW

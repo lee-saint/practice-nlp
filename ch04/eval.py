@@ -2,7 +2,7 @@ from common.util import most_similar, analogy
 import pickle
 
 if __name__ == '__main__':
-    pkl_file = 'cbow_params.pkl'
+    pkl_file = 'cbow_params_mine.pkl'
 
     with open(pkl_file, 'rb') as f:
         params = pickle.load(f)
